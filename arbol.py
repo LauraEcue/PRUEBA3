@@ -2,7 +2,7 @@ class Nodo:
     def __init__(self, dato):
         self.dato = dato
         self.izquierdo = None
-        self.derecho = Nodo
+        self.derecho = None
 
 
 class ArbolBinarioBusqueda:
